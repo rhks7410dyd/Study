@@ -12,9 +12,9 @@ public class ScoreBoard {
     }
 
     public static void main(String[] args) {
-        List<Integer> scores = Arrays.asList(90, 80, 70);
+        List<Integer> scores = Arrays.asList(90, 85, 70);
         System.out.println("average: " + average(scores));
-        // 기대: average: 80.0
+        // 기대: average: 81.66666666666667
         // 실제: ?
     }
 }

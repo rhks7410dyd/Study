@@ -5,9 +5,9 @@
 
 ## 재현
 ```java
-List<Integer> scores = Arrays.asList(90, 80, 70);
+List<Integer> scores = Arrays.asList(90, 85, 70);
 System.out.println("average: " + average(scores));
-// 기대: average: 80.0
+// 기대: average: 81.66666666666667
 // 실제: ?
 ```
 직접 `javac Problem.java && java ScoreBoard`로 실행해서 실제 출력을 확인해보세요.
@@ -17,7 +17,7 @@ System.out.println("average: " + average(scores));
 
 1. 재현 — 실제로 어떤 값이 나오는지 확인 (기대와 다른지)
 2. 가설 — `average`의 반환 타입은 `double`인데 왜 결과가 정수처럼 나오는지 문장으로 적기
-3. 검증 — 가설대로 수정 후 재실행해서 `80.0`이 나오는지 확인
+3. 검증 — 가설대로 수정 후 재실행해서 `81.666...`이 나오는지 확인
 
 ## 접근
 ### 재현
