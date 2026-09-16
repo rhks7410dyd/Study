@@ -1,0 +1,57 @@
+.practice-tabs {
+  margin: 1rem 0 2rem;
+}
+.practice-tabs .practice-tab-bar {
+  display: flex;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  background: var(--lightgray);
+  border: 1px solid var(--lightgray);
+  border-radius: 0.6rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+.practice-tabs .practice-tab-btn {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  font: inherit;
+  font-family: var(--bodyFont);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--gray);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.45rem;
+  padding: 0.45rem 0.75rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+.practice-tabs .practice-tab-btn:hover {
+  color: var(--dark);
+}
+.practice-tabs .practice-tab-btn.active {
+  background: var(--light);
+  color: var(--secondary);
+  border-color: var(--lightgray);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.practice-tabs .practice-tab-btn .practice-tab-icon {
+  font-size: 0.85em;
+}
+.practice-tabs .practice-tab-panel {
+  display: none;
+}
+.practice-tabs .practice-tab-panel.active {
+  display: block;
+}
+/* origin/solve code panel accents */
+.practice-tabs .practice-tab-panel[data-kind="origin"] pre {
+  border-left: 3px solid #f85149;
+}
+.practice-tabs .practice-tab-panel[data-kind="solve"] pre {
+  border-left: 3px solid #3fb950;
+}

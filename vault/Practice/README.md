@@ -4,10 +4,19 @@
 
 ```
 Practice/
-  YYMMDD-short-english-title/
-    note.md      # 문제, 접근, 회고 + 관련 개념 백링크
-    solution.*    # 실제 코드 (주석에 관련 개념을 평문으로 표기)
+  Python/
+    YYMMDD-short-english-title/
+      note.md      # 문제, 접근, 회고 + 관련 개념 백링크
+      solution.*    # 실제 코드 (주석에 관련 개념을 평문으로 표기)
+  Java/
+    YYMMDD-short-english-title/
+      note.md
+      solution.*
 ```
+
+언어별로 `Practice/Python/`, `Practice/Java/` 아래에 날짜 폴더를 둔다.
+- [[Practice/Python/README|Python 문제 목록]]
+- [[Practice/Java/README|Java 문제 목록]]
 
 `note.md` 템플릿:
 
@@ -30,4 +39,4 @@ Practice/
 
 코드 파일 주석에는 옵시디언 링크 문법(`[[ ]]`)이 렌더링되지 않으므로,
 `# 관련: 디버깅-루틴.md` 같은 평문 표기만 남기고 실제 링크는 짝지어진 `note.md`에서 건다.
-예시는 [[../Practice/260730-example/note|예시 폴더]] 참고.
+예시는 [[Practice/Python/260730-example|예시 폴더]] 참고.

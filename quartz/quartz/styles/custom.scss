@@ -1,0 +1,30 @@
+@use "./variables.scss" as *;
+
+// put your custom CSS here!
+
+// 탐색기 폴더 펼침 표시: 꺽쇠(chevron) 대신 폴더 아이콘, 위쪽 정렬
+// (svg.folder-icon는 실제 클릭 토글 핸들러가 붙어있어 지우지 않고 투명하게만 두고,
+// 이모지는 ::before로 그 자리 위에 겹쳐서 그린다 — pointer-events:none이라 클릭은 그대로 svg가 받음)
+.folder-container {
+  align-items: flex-start;
+  position: relative;
+}
+.folder-icon {
+  opacity: 0;
+}
+.folder-container::before {
+  content: "📂";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 12px;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  pointer-events: none;
+}
+li:has(> .folder-outer:not(.open)) > .folder-container::before {
+  content: "📁";
+}
