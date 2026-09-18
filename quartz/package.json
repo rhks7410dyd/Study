@@ -14,9 +14,10 @@
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
     "gen-practice": "node scripts/gen-practice-pages.mjs",
-    "preserve": "npm run gen-practice",
+    "patch-graph": "node scripts/patch-graph-colors.mjs",
+    "preserve": "npm run gen-practice && npm run patch-graph",
     "serve": "npx quartz build --serve -d ../vault",
-    "prebuild": "npm run install-plugins && npm run gen-practice",
+    "prebuild": "npm run install-plugins && npm run gen-practice && npm run patch-graph",
     "build": "npx quartz build -d ../vault -o public",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",

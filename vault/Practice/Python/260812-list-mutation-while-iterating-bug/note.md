@@ -18,7 +18,7 @@ print("remaining:", [i["name"] for i in remaining])
 직접 `python problem.py`로 실행해서 실제 출력을 확인해보세요.
 
 ## 진행 방법
-[[Concepts/디버깅-루틴|디버깅 루틴]]을 따라 아래 순서로 풀어보세요. AI 도구 없이 먼저 시도할 것.
+디버깅 루틴을 따라 아래 순서로 풀어보세요. AI 도구 없이 먼저 시도할 것.
 
 1. 재현 — 실제로 어떤 아이템이 남는지 확인 (기대와 다른 게 있는지)
 2. 가설 — `for item in items: items.remove(item)`처럼 순회 중인 리스트를 직접 수정하면 왜 일부 원소를 건너뛰게 되는지 문장으로 적기
@@ -64,8 +64,6 @@ def remove_expired(items):
 
 
 ## 관련 개념
-- [[Concepts/디버깅-루틴|디버깅 루틴]]
-- [[Concepts/설명-능력|설명 능력]] — 리스트가 인덱스 기반으로 순회된다는 사실이 왜 이 버그의 원인인지 한 문장으로 설명해볼 것
 - [[Language/Python/리스트-순회중-변경|순회 중인 리스트를 직접 변경하기 (Python)]]
 
 ## 회고

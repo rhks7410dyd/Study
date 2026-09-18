@@ -13,7 +13,7 @@ System.out.println("average: " + average(scores));
 직접 `javac Problem.java && java ScoreBoard`로 실행해서 실제 출력을 확인해보세요.
 
 ## 진행 방법
-[[Concepts/디버깅-루틴|디버깅 루틴]]을 따라 아래 순서로 풀어보세요. AI 도구 없이 먼저 시도할 것.
+디버깅 루틴을 따라 아래 순서로 풀어보세요. AI 도구 없이 먼저 시도할 것.
 
 1. 재현 — 실제로 어떤 값이 나오는지 확인 (기대와 다른지)
 2. 가설 — `average`의 반환 타입은 `double`인데 왜 결과가 정수처럼 나오는지 문장으로 적기
@@ -48,8 +48,6 @@ average: 81.66666666666667
 ```
 
 ## 관련 개념
-- [[Concepts/디버깅-루틴|디버깅 루틴]]
-- [[Concepts/설명-능력|설명 능력]] — `sum / scores.size()`가 왜 `int` 나눗셈으로 계산되는지, `double`로 바꾸려면 어디를 캐스팅해야 하는지 한 문장으로 설명해볼 것
 - [[Language/Java/정수-나눗셈-타입-캐스팅|정수 나눗셈과 타입 캐스팅 (Java)]]
 - [[Language/Python/나눗셈-연산자|나눗셈 연산자 `/` vs `//` (Python과 비교)]]
 

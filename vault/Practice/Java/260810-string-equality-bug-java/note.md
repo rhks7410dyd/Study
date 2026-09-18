@@ -18,7 +18,7 @@ System.out.println("fromInput login: " + checker.checkPassword(fromInput));
 직접 `javac Problem.java && java LoginChecker`로 실행해서 실제 출력을 확인해보세요.
 
 ## 진행 방법
-[[Concepts/디버깅-루틴|디버깅 루틴]]을 따라 아래 순서로 풀어보세요. AI 도구 없이 먼저 시도할 것.
+디버깅 루틴을 따라 아래 순서로 풀어보세요. AI 도구 없이 먼저 시도할 것.
 
 1. 재현 — 위 코드를 실행해서 실제로 `fromInput` 쪽이 다르게 나오는지 확인
 2. 가설 — `direct`와 `fromInput`이 같은 문자열 값인데 왜 결과가 다른지 문장으로 적기
@@ -55,8 +55,6 @@ fromInput login : true
 ```
 
 ## 관련 개념
-- [[Concepts/디버깅-루틴|디버깅 루틴]]
-- [[Concepts/설명-능력|설명 능력]] — Java에서 `==`가 문자열에 대해 무엇을 비교하는지, `.equals()`와 뭐가 다른지 한 문장으로 설명해볼 것
 - [[Language/Java/문자열-비교-equals-vs-동등연산자|`==` vs `.equals()`, 문자열 인터닝 (Java)]]
 
 ## 회고
