@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "038169ae745b0e2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac05e63488fd5009",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4512cd44a5d864ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Python/mutable-object-immutable-object.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "mutable-object-immutable-object"
+            }
+          },
+          {
+            "id": "ed2a7d8f3847720b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Python/mutable-object-immutable-object.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "mutable-object-immutable-object"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ee10d79c201628b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8da1d3bcae03de18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa1d7acde47f60fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "6769b6b713551b28",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "a7ca896aef50bcb2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "91ca923e96c5713b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a351f9d20d0080a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e449b7448550295",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Language/Python/mutable-object-immutable-object.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "c1cf04afdb8c4ffc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Language/Python/mutable-object-immutable-object.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "f896650db5ea04fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "fe0ffd6b50424e24",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "4f0e0090ab16092b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Language/Python/mutable-object-immutable-object.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "aa1d7acde47f60fa",
+  "lastOpenFiles": [
+    "Language/Python/mutalbe-default-argument.md",
+    "Language/Python/mutable-object-immutable-object.md",
+    "Practice/Python/260810-shared-list-bug/note.md",
+    "Practice/Python/260812-list-mutation-while-iterating-bug/note.md",
+    "Practice/Python/260812-list-mutation-while-iterating-bug/index.md",
+    "Language/Python/mutable-default-argument-default-value.py",
+    "Language/Python/mutable-default-argument-tuple-2.py",
+    "Language/Python/mutable-default-argument-tuple-1.py",
+    "Language/Python/mutable-default-argument.py",
+    "Language/Python/mutalbe-default-argument.py",
+    "Language/Python/mutable-default-argument",
+    "Language/Python"
+  ]
+}
